@@ -1,0 +1,19 @@
+
+backend:
+  name: git-gateway
+  branch: main
+
+collections:
+  - name: notices
+    label: Notices
+    files:
+      - name: main
+        label: Notices
+        file: content/notices.json
+        fields:
+          - label: Notices
+            name: notices
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Body, name: body, widget: string}
