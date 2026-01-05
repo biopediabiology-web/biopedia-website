@@ -1,8 +1,39 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <title>BioPedia Foundation</title>
+
+  <!-- Netlify Identity (for CMS login) -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body></body>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>BioPedia Foundation</h1>
+    <p>Biology Coaching for NEET-UG • CUET-PG • Competitive Exams</p>
+  </header>
+
+  <!-- ===== NOTICES SECTION (THIS IS IMPORTANT) ===== -->
+  <section id="notices-section">
+    <h2>Latest Updates</h2>
+    <div id="notices-list">
+      <p>Loading updates...</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© BioPedia Foundation</p>
+  </footer>
+
+  <!-- Your JS -->
+  <script src="main.js"></script>
+
+</body>
 </html>
